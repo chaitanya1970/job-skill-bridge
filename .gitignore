@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Large processed datasets
+data/processed/*.pkl
+
+# Generated model files
+models/*
+!models/.gitkeep
+
+# Generated reports/outputs
+reports/*.png
+reports/*.jpg
+reports/*.jpeg
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# Raw datasets
+data/raw/*.xlsx
